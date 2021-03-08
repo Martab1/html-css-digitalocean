@@ -38,8 +38,16 @@
     position:relative;
 }
 
-.font_18{
+.font_17{
     font-size:17px;
+}
+
+.font_35{
+    font-size: 35px;
+}
+
+.font_13{
+    font-size:13px;
 }
 
 /* button */
@@ -75,6 +83,10 @@ header.main_header a{
     color:black;
 }
 
+header.main_header li:not(:last-child){
+    padding: 0 10px;
+}
+
 header.main_header .my_btn{
     color: #1482e2;  
 }
@@ -82,6 +94,7 @@ header.main_header .my_btn{
 ul.vertical{
     padding: 6px 12px;
 }
+
 
 
 /* * * * * * * * MAIN */
@@ -111,10 +124,6 @@ main{
     font-size: 30px;
 }
 
-.box span{
-    font-size: 13px;
-}
-
 .google_icon{
     width:20px;
     position: absolute;
@@ -136,20 +145,22 @@ main{
 
 .business .logos{
     width:100%;
-  
 }
 
 .business .logos img{
-    width: calc((100% / 2) - 10px );
+    width: calc((90% / 2) - 10px );
    
 }
-
+.margin_left{
+    margin-left:25px;
+}
+.margin_right{
+    margin-right: 25px;
+}
 
 /* section deploy */
 
-.deploy h3{
-    font-size:35px;
-}
+
 
 .deploy ul{
     border-left: 1px solid rgba(3,27,78,0.70);
@@ -171,6 +182,53 @@ main{
 
 
 
+/* section slide */
+
+.design{
+    background-color: #d0d0d038;
+}
+
+.slide img{
+    width: 300px;
+}
+
+.slide p{
+    padding-top: 15px;
+}
+
+.slide .fa-angle-left,
+.slide .fa-angle-right{
+    padding:5px;
+    font-size: 4rem;
+    position: relative;
+    top:30px;   
+}
+
+.slide .fa-angle-right{
+    color:black;
+}
+
+.paginations .circle{
+   width:10px;
+   height: 10px;
+   border-radius: 50%;
+   border:1px solid #1482e2;
+   transition: all .3s;
+}
+
+
+.full{
+    background-color:#1482e2 ;
+}
+
+.list-inline li{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.paginations .circle:hover{
+    transform: scale(1.5);
+}
 
 
 
@@ -194,6 +252,9 @@ main{
 
 
 @media screen and (min-width:768px){
+
+    /* hero section */ 
+
    .hero{
        background-position: bottom center;
    }
@@ -207,7 +268,7 @@ main{
     font-size: 25px;
    }
 
-    .box h2{
+   .box h2{
        font-size: 28px;
    } 
 
@@ -216,10 +277,16 @@ main{
     }
 
 
+     /* business section */
+
     .business .logos img{
         width: calc((100% / 6) - 10px);
-    
+        margin-right:5px;
+        margin-left:0;
     }
+
+    
+     /* deploy section */
 
     .deploy .cluster{
         margin-top: 0;
@@ -228,8 +295,7 @@ main{
     .one_click,
     .global{
         margin-top: 20px;
-    }  
-
+    }   
 
     .cluster p,
     .optimized p,
@@ -238,6 +304,19 @@ main{
         font-size:16px;
     }
 
+    /* slide section */
+
+    .slide img{
+        width: 400px;
+    }
+
+    .slide p{
+        font-size: 16px;
+    }
+
+    .paginations{
+        margin-top: 40px;
+    }
 
 
 }
@@ -245,19 +324,35 @@ main{
 /* MEDIA DESKTOP */
 
 @media screen and (min-width:992px){
+
+    /* hero section */
+
     .hero h1{
         font-size:60px;
     }
+
+    /* business section  */
 
     .business .logos img{
         padding-right: 12px;
     }
     
+    /* deploy section  */
     .list{
         padding-left: 130px;
     }
 
-   
+    .one_click,
+    .global{
+        position:relative;
+        bottom:70px;
+    }
+
+     /* slide section */
+
+    .slide img{
+        width: 600px;
+    }
 
     
 }
