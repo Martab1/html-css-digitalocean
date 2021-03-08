@@ -38,6 +38,9 @@
     position:relative;
 }
 
+.font_18{
+    font-size:17px;
+}
 
 /* button */
 
@@ -79,6 +82,7 @@ header.main_header .my_btn{
 ul.vertical{
     padding: 6px 12px;
 }
+
 
 /* * * * * * * * MAIN */
 
@@ -149,12 +153,22 @@ main{
 
 .deploy ul{
     border-left: 1px solid rgba(3,27,78,0.70);
-    padding-left: 20px;
+    padding-left: 12px;
 }
 
 .deploy ul li {
     padding: 10px 0;
 }
+
+.deploy .cluster{
+    margin-top: 20px;
+}
+
+.deploy h4{
+    padding-top: 10px;
+    font-size:20px;
+}
+
 
 
 
@@ -207,6 +221,25 @@ main{
     
     }
 
+    .deploy .cluster{
+        margin-top: 0;
+    }
+
+    .one_click,
+    .global{
+        margin-top: 20px;
+    }  
+
+
+    .cluster p,
+    .optimized p,
+    .one_click p,
+    .global p{
+        font-size:16px;
+    }
+
+
+
 }
 
 /* MEDIA DESKTOP */
@@ -219,5 +252,12 @@ main{
     .business .logos img{
         padding-right: 12px;
     }
+    
+    .list{
+        padding-left: 130px;
+    }
+
+   
+
     
 }
