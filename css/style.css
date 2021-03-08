@@ -1,14 +1,41 @@
 
-/* UTILITIES */
 
-.my_btn{
+/* * * * * * * * UTILITIES */
+
+.btn_outline_blue{
     color: #1482e2;
     border-color: #1482e2;
 }
 
+.vertical{
+    vertical-align: middle;   
+}
 
+.bolder{
+    font-weight: bold;
+}
 
-/* HEADER */
+.color_white{
+    color: #fff;
+}
+
+.color_blue{
+    color: #1482e2;  
+}
+
+.color_grey{
+    color:#f5f5f5b3;
+}
+
+.padding_bottom{
+    padding-bottom: 60px;
+}
+
+.padding_top{
+    padding-top:60px;
+}
+
+/* * * * * * * * HEADER */
 
 header{
     padding : 20px 0;
@@ -30,6 +57,97 @@ header.main_header a{
 }
 
 header.main_header .my_btn{
-    color: #1482e2;
-   
+    color: #1482e2;  
+}
+
+ul.vertical{
+    padding: 6px 12px;
+}
+
+/* * * * * * * * MAIN */
+
+main{
+    font-size: 21px;
+}
+
+/* section hero */
+
+.hero{
+    background-image: url(../img/bg-banner-home.jpg);
+    background-position: top;
+    
+}
+/* 
+.hero .title{
+    width:90%;
+}  */
+
+.box{
+    padding: 30px 0;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+ .form-group{
+    padding:0 10px;
+} 
+
+.box p{
+    font-size: 30px;
+}
+
+.box span{
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA TABLET */
+
+
+@media screen and (min-width:768px){
+   .hero{
+       background-position: bottom center;
+   }
+
+   .form-group{
+    padding:0 15px;
+
+   } 
+
+   .box p{
+    font-size: 25px;
+   }
+
+    .box h2{
+       font-size: 28px;
+   } 
+
+   .box span{
+       font-size:14px;
+    }
+
+}
+
+@media screen and (min-width:992px){
+    .hero h1{
+        font-size:60px;
+    }
+
+    
 }
