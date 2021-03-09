@@ -26,6 +26,10 @@
     color: rgba(3,27,78,0.70);
 }
 
+.color_green{
+    color:#75e8ce;
+}
+
 .padding_bottom{
     padding-bottom: 60px;
 }
@@ -52,6 +56,12 @@
 
 .font_13{
     font-size:13px;
+}
+
+.border_bottom{
+    border-bottom: 1px solid #fff;
+    padding-bottom: 12px;
+    padding-top: 12px;
 }
 
 
@@ -238,12 +248,21 @@ main{
 
 
 
-
 /* section features */
 
 .features a > span{
     padding-left: 8px;
 }
+
+/* section tab */
+
+.tab{
+    background: linear-gradient( 360deg , #020f29 0%, #244fbf 100%);
+}
+
+
+
+
 
 
 
