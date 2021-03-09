@@ -147,16 +147,15 @@ main{
     width:100%;
 }
 
-.business .logos img{
-    width: calc((90% / 2) - 10px );
+ .business .logos li{
+    width: calc((100% / 2) - 10px );
    
+} 
+
+.business .logos li img{
+    width:90%;
 }
-.margin_left{
-    margin-left:25px;
-}
-.margin_right{
-    margin-right: 25px;
-}
+
 
 /* section deploy */
 
@@ -279,10 +278,14 @@ main{
 
      /* business section */
 
-    .business .logos img{
+    .business .logos li{
         width: calc((100% / 6) - 10px);
-        margin-right:5px;
-        margin-left:0;
+        padding-left: 10px;
+        
+    } 
+
+    .business .logos li img{
+        width:100%;
     }
 
     
@@ -330,12 +333,6 @@ main{
     .hero h1{
         font-size:60px;
     }
-
-    /* business section  */
-
-    .business .logos img{
-        padding-right: 12px;
-    }
     
     /* deploy section  */
     .list{
@@ -353,6 +350,7 @@ main{
     .slide img{
         width: 600px;
     }
+
 
     
 }
