@@ -40,6 +40,10 @@
     background-color: #d0d0d038;
 }
 
+.background_gradient{
+    background: linear-gradient( 360deg , #112f6d 0%, #244fbf 100%);
+}
+
 
 .padding_bottom{
     padding-bottom: 60px;
@@ -51,6 +55,10 @@
 
 .padding_top_20{
     padding-top: 20px;
+}
+
+.padding_bottom_10{
+    padding-bottom: 10px;
 }
 
 .position{
@@ -87,6 +95,11 @@
 .btn_full{
     color:#fff;
     background-color: #1482e2;
+}
+
+.btn_full_white{
+   color: #1482e2;
+   background:#fff;
 }
 
 /* * * * * * * * HEADER */
@@ -254,13 +267,7 @@ main{
     padding-left: 8px;
 }
 
-/* section tab */
 
-.tab{
-    background: linear-gradient( 360deg , #112f6d 0%, #244fbf 100%);
-}
-
-/* section rockerbox */
 
 
 
