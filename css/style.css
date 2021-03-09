@@ -2,6 +2,12 @@
 
 /* * * * * * * * UTILITIES */
 
+.box{
+    padding: 30px 0;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
 .vertical{
     vertical-align: middle;   
 }
@@ -29,6 +35,11 @@
 .color_green{
     color:#75e8ce;
 }
+
+.background_grey{
+    background-color: #d0d0d038;
+}
+
 
 .padding_bottom{
     padding-bottom: 60px;
@@ -126,17 +137,11 @@ main{
     background-position: top;
 }
 
-.box{
-    padding: 30px 0;
-    border-radius: 5px;
-    background-color: #fff;
-}
-
 .form-group{
     padding:0 10px;
 }
 
-.box p{
+.hero .box p{
     font-size: 30px;
 }
 
@@ -152,7 +157,6 @@ main{
 
 .business {
     padding: 40px 0; 
-    background-color: #d0d0d038;
 }
 
 .business h4{
@@ -200,9 +204,6 @@ main{
 
 /* section slide */
 
-.design{
-    background-color: #d0d0d038;
-}
 
 .slide img{
     width: 300px;
@@ -247,7 +248,6 @@ main{
 }
 
 
-
 /* section features */
 
 .features a > span{
@@ -259,6 +259,12 @@ main{
 .tab{
     background: linear-gradient( 360deg , #112f6d 0%, #244fbf 100%);
 }
+
+/* section rockerbox */
+
+
+
+
 
 
 
@@ -292,7 +298,7 @@ main{
 
    } 
 
-   .box p{
+   .hero .box p{
     font-size: 25px;
    }
 
@@ -356,8 +362,15 @@ main{
         font-size:18px;
     }
 
+    /* section rockerbox */
 
+    .rockerbox .fa-angle-left,
+    .rockerbox .fa-angle-right{
+        font-size: 4rem;
+        
+    }
 
+     
 }
 
 
@@ -394,6 +407,11 @@ main{
         width: 600px;
     }
 
+    .rockerbox h3,
+    .features h3,
+    .slider h3{
+        font-size:32px;
+    }
 
     
 }
