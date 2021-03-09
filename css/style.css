@@ -44,6 +44,9 @@
     background: linear-gradient( 360deg , #112f6d 0%, #244fbf 100%);
 }
 
+.background_blue{
+    background:#0c1a4afc;
+}
 
 .padding_bottom{
     padding-bottom: 60px;
@@ -268,8 +271,28 @@ main{
 }
 
 
+/* section tab */
+
+.tab .row a:hover{
+   color:#fff;
+}
 
 
+
+
+
+/* * * * * * * * FOOTER */
+
+footer .social li i{
+    font-size: 2rem;
+    padding-right: 10px;
+    transition: all .3s;
+}
+
+
+footer .social li i:hover{
+    color:#fff;
+}
 
 
 
@@ -427,4 +450,10 @@ main{
     }
 
     
-}
+    /* footer */ 
+ 
+    footer div h4{
+        padding-top:60px;
+    }
+}  
+
