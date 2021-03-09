@@ -1,4 +1,10 @@
 
+/* GENERAL */
+
+body{
+     padding-top: 40px;
+} 
+
 
 /* * * * * * * * UTILITIES */
 
@@ -107,8 +113,14 @@
 
 /* * * * * * * * HEADER */
 
-header{
+header.main_header{
+    background:#fff;
     padding: 20px 0;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index: 1;
 }
 
 .main_header img{
@@ -277,21 +289,32 @@ main{
    color:#fff;
 }
 
-/* rockerbox */
+/* section rockerbox */
 
 .rockerbox i.fa-angle-left{
     position:absolute;
-    top:35%;
+    top:38%;
     left:-5%;
 }
 
 .rockerbox i.fa-angle-right{
     position:absolute;
-    bottom:56%;
+    top:38%;
     right:-5%;
 }
 
 
+/* section get started */
+
+.get_started .btn{
+    transition: all .3s;
+}
+
+.get_started .btn:hover{
+    color:#fff;
+     background:#1482e2;
+     border:1px solid #fff;
+}
 
 
 
