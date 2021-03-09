@@ -377,6 +377,12 @@ main{
         
     }
 
+    /* section get started */
+
+    .get_started h3{
+        font-size: 3.5rem;
+    }
+
      
 }
 
