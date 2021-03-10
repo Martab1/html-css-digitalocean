@@ -1,5 +1,5 @@
 
-/* GENERAL */
+/* * * * * * * *  GENERAL */
 
 body{
      padding-top: 40px;
@@ -18,9 +18,17 @@ body{
     vertical-align: middle;   
 }
 
-.bolder{
-    font-weight: bold;
+.position{
+    position:relative;
 }
+
+.border_bottom{
+    border-bottom: 1px solid #fff;
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+
+/* color */
 
 .color_white{
     color: #fff;
@@ -42,7 +50,10 @@ body{
     color:#75e8ce;
 }
 
-.background_grey{
+
+/* background */ 
+
+.bg_grey{
     background-color: #d0d0d038;
 }
 
@@ -50,10 +61,15 @@ body{
     background: linear-gradient( 360deg , #112f6d 0%, #244fbf 100%);
 }
 
-.background_blue{
+.bg_blue{
     background:#0c1a4afc;
 }
 
+/* padding */
+
+.padding_0{
+    padding:0;
+}
 .padding_bottom{
     padding-bottom: 60px;
 }
@@ -70,9 +86,7 @@ body{
     padding-bottom: 10px;
 }
 
-.position{
-    position:relative;
-}
+/* font */
 
 .font_17{
     font-size:17px;
@@ -86,12 +100,9 @@ body{
     font-size:13px;
 }
 
-.border_bottom{
-    border-bottom: 1px solid #fff;
-    padding-bottom: 12px;
-    padding-top: 12px;
+.bolder{
+    font-weight: bold;
 }
-
 
 
 /* button */
@@ -401,10 +412,10 @@ footer a:hover{
         margin-top: 0;
     }
 
-    .one_click,
+    /* .one_click,
     .global{
-        margin-top: 20px;
-    }   
+        margin-top: 50px;
+    }     */
 
     .cluster p,
     .optimized p,
@@ -467,16 +478,6 @@ footer a:hover{
         font-size:60px;
     }
     
-    /* deploy section  */
-    .list{
-        padding-left: 130px;
-    }
-
-    .one_click,
-    .global{
-        position:relative;
-        bottom:70px;
-    }
 
      /* slide section */
 
@@ -490,6 +491,7 @@ footer a:hover{
         font-size:32px;
     }
 
+
     
     /* footer */ 
  
@@ -497,4 +499,5 @@ footer a:hover{
         padding-top:60px;
     }
 }  
+
 
