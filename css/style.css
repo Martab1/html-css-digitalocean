@@ -86,7 +86,7 @@ body{
     padding-bottom: 10px;
 }
 
-/* font */
+/* text */
 
 .font_17{
     font-size:17px;
@@ -347,9 +347,57 @@ footer a:hover{
 }
 
 
+/* help */
 
 
+.box_shark{
+    left:30px;
+    width:60px;
+    height:60px;
+    border-radius: 5px;
+    background:#1f61e0;
+}
 
+.box_shark img{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+.notification{ 
+    position:absolute;
+    right:-8px;
+    top:-8px;
+    width:25px;
+    height: 25px;
+    background:red;
+    border:3px solid #fff;
+    border-radius: 50%;
+
+}
+
+.notification .number{
+    line-height:19px ;
+}
+
+
+footer .box{
+    position:relative;
+    left:30px;
+    top:20px;
+    padding: 10px 10px;
+     width: 400px;
+}
+
+.square{
+    position: absolute;
+    right:-5px;
+    bottom:10px;
+    transform: rotate(45deg);
+    width:15px;
+    height: 15px;
+    background:#fff;
+}
 
 
 
@@ -412,10 +460,10 @@ footer a:hover{
         margin-top: 0;
     }
 
-    /* .one_click,
+    .one_click,
     .global{
-        margin-top: 50px;
-    }     */
+        margin-top: 20px;
+    }   
 
     .cluster p,
     .optimized p,
