@@ -50,6 +50,10 @@ body{
     color:#75e8ce;
 }
 
+.color_black{
+    color:black;
+}
+
 
 /* background */ 
 
@@ -67,9 +71,6 @@ body{
 
 /* padding */
 
-.padding_0{
-    padding:0;
-}
 .padding_bottom{
     padding-bottom: 60px;
 }
@@ -145,21 +146,19 @@ header.main_header{
     color:#1482e2;
 }
 
-header.main_header a{
-    color:black;
-}
-
 header.main_header li:not(:last-child){
     padding: 0 10px;
-}
-
-header.main_header .my_btn{
-    color: #1482e2;  
 }
 
 ul.vertical{
     padding: 6px 12px;
 }
+
+header.main_header .btn:hover{
+    color:#fff;
+    background:#1482e2;
+}
+
 
 
 
@@ -169,7 +168,7 @@ main{
     font-size: 21px;
 }
 
-/* section hero */
+/* hero section */
 
 .hero{
     background-image: url(../img/bg-banner-home.jpg);
@@ -191,7 +190,8 @@ main{
 }
 
 
-/* section business */
+
+/* business section */
 
 
 .business {
@@ -216,8 +216,8 @@ main{
 }
 
 
-/* section deploy */
 
+/* deploy section */
 
 
 .deploy ul{
@@ -241,7 +241,7 @@ main{
 
 
 
-/* section slide */
+/* slide section */
 
 
 .slide img{
@@ -260,9 +260,9 @@ main{
     top:30px;   
 }
 
-.slide .fa-angle-right{
+ .slide .fa-angle-right{
     color:black;
-}
+} 
 
 .paginations .circle{
    width:10px;
@@ -287,20 +287,20 @@ main{
 }
 
 
-/* section features */
+/* features section */
 
 .features a > span{
     padding-left: 8px;
 }
 
 
-/* section tab */
+/* tab section */
 
 .tab .row a:hover{
    color:#fff;
 }
 
-/* section rockerbox */
+/* rockerbox section */
 
 .rockerbox i.fa-angle-left{
     position:absolute;
@@ -315,7 +315,7 @@ main{
 }
 
 
-/* section get started */
+/* get started section */
 
 .get_started .btn{
     transition: all .3s;
@@ -347,7 +347,7 @@ footer a:hover{
 }
 
 
-/* help */
+/* help section */
 
 
 .box_shark{
@@ -368,9 +368,6 @@ footer a:hover{
         transform: translatey(10px);
     }
 }
-
-
-
 
 
 .box_shark img{
@@ -402,6 +399,7 @@ footer .box{
     padding: 10px 10px;
     width: 400px;
     border: .5px solid lightgray;
+    
     
 }
 
@@ -509,13 +507,13 @@ footer .box{
         margin-top: 40px;
     }
 
-    /* seciton features */
+    /*  features section */
 
     .features h4{
         font-size:18px;
     }
 
-    /* section rockerbox */
+    /* rockerbox section */
 
     .rockerbox .fa-angle-left,
     .rockerbox .fa-angle-right{
@@ -523,7 +521,7 @@ footer .box{
         
     }
 
-    /* section get started */
+    /* get started section */
 
     .get_started h3{
         font-size: 3.5rem;
@@ -564,7 +562,7 @@ footer .box{
 
 
     
-    /* footer */ 
+    /* footer  */ 
  
     footer div h4{
         padding-top:60px;
@@ -577,6 +575,7 @@ footer .box{
 
     footer .box{
         left:68%;
+    }
         
 
 }  
